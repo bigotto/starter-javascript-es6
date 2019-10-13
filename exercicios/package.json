@@ -6,9 +6,10 @@
   "dependencies": {
     "@babel/cli": "^7.6.2",
     "@babel/core": "^7.6.2",
+    "@babel/plugin-proposal-object-rest-spread": "^7.6.2",
     "@babel/preset-env": "^7.6.2"
   },
   "scripts": {
-    "dev": "babel ./01.js -o bundle.js -w"
+    "dev": "babel ./07.js -o bundle.js -w"
   }
 }
